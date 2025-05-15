@@ -12,5 +12,5 @@ Este proyecto implementa un analizador de operaciones con cadenas usando ANTLR y
 1. Cloná el repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/analizador-cadenas.git
+git clone https://github.com/FrancisCMarsala/52029.git
 cd analizador-cadenas

@@ -1,4 +1,4 @@
-# Analizador de Operaciones con Cadenas
+# Analizador Tema 25914_11
 
 Este proyecto implementa un analizador de operaciones con cadenas usando ANTLR y Node.js.
 

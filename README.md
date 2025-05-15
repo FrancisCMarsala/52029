@@ -2,15 +2,33 @@
 
 Este proyecto implementa un analizador de operaciones con cadenas usando ANTLR y Node.js.
 
-## 📦 Requisitos
+## Requisitos
 
 - Node.js instalado
 - ANTLR 4.13.2
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 1. Cloná el repositorio:
 
 ```bash
 git clone https://github.com/FrancisCMarsala/52029.git
+```
+
+2. Andá a la ubicación del archivo
+
+```bash
 cd analizador-cadenas
+```
+
+3. Instalá las dependencias
+
+```bash
+npm install
+```
+
+4. Abrí el programa de Visual Studio Code
+
+```bash
+code .
+```

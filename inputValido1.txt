@@ -9,11 +9,11 @@ mensajeCompleto = mensaje1 + mensaje2;
 
 imprimir (mensajeCompleto);
 
-variable numero = 123;
+variable numero = "123";
 
 imprimir(numero);
 
-funcion hola (mensaje1) {
+funcion funcionConDevolucion (mensaje1) {
 
     mensaje1 = reemplazar ("Adios Mundo");
 
@@ -21,7 +21,7 @@ funcion hola (mensaje1) {
 
     imprimir(mensaje1);
 
-    devolver 3;
+    devolver "4";
 
 }
 

@@ -44,7 +44,7 @@ code .
 
 # Utilizar el analizador
 
-- En el proyecto se encontrará un archivo bash``` input.txt ``` vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.
+- En el proyecto se encontrará un archivo ``` input.txt ``` vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.
   
 - Una vez colocado el input, puedes presionar ``` f5 ```, para ver su estructura sintactica.
   

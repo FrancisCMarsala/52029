@@ -62,12 +62,12 @@ code .
   Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra imprimir, tranformar o devolver un valor, pero NO se podra usar la concatenación. Ademas la     funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
 
   - Funcion con Argumentos
-  
+  ``` bash
     funcion primeraFuncion (var1, var2) {
       var1 = minuscula (var2);
       devolver var1;  
     } 
-
+  ```
   - Función sin Argumentos
   
   ```    

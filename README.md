@@ -37,8 +37,8 @@ code .
 
 - En el proyecto se encontrará un archivo bash``` input.txt ``` vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.
   
-- Una vez colocado el input, puedes presionar bash``` f5 ```, para ver su estructura sintactica.
+- Una vez colocado el input, puedes presionar ``` f5 ```, para ver su estructura sintactica.
   
-- Para ejecutar el código, abre la terminal con bash``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código bash``` npm start ```.
+- Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código bash``` npm start ```.
   
-  - En caso de tener algun problema coloca en la terminal: bash``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
+  - En caso de tener algun problema coloca en la terminal: ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```

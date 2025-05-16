@@ -1,4 +1,4 @@
-# ** ANALIZADOR TEMA 25914_11 **
+# ANALIZADOR TEMA 25914_11 
 
 Este proyecto implementa un analizador con la gramática y los requisitos proporcionados.
 
@@ -117,6 +117,21 @@ code .
   - Todas las sentencias deben terminar con ```;```
   - No pueden haber funciones o variables con el mismo nombre.
   - No pueden haber concatenaciones en las funciones, ni variables no definidas en el argumento
+  - Como especifica en la gramática, las variables se declaran con un ```<valor>``` por lo que no se permite declarar una variable con una concatenación o transformación. 
+
+   - Ejemplo de sentencias no válidas:
+
+      variable z = x + y;
+      variable z = mayuscula (x);
+
+   - Ejemplo de sentencias no válidas:
+
+      variable x = "Hola ";
+      variable y = "Mundo";
+      variable z;
+      z = x + y;
+      z = mayuscula (x);
+
 
   ## RESULTADOS ESPERADOS:
 

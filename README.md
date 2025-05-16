@@ -32,3 +32,7 @@ npm install
 ```bash
 code .
 ```
+
+# Utilizar el analizador
+
+###En el proyecto se encontrará un archivo input.txt vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.

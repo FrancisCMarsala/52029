@@ -33,6 +33,15 @@ npm install
 code .
 ```
 
+# Estructura del analizador
+
+-```GramCadenas.g4```: Estructura de la gramática
+-```myGramarLexer.g4```: Lexemas
+-```input.txt```: Código leído por el analizador
+-```CustomGramCadenasVisitor.js```: Encargado de realizar los eventos al recorrer los nodos del árbol
+-```index.js```: Acopla las distintas partes del analizador
+
+
 # Utilizar el analizador
 
 - En el proyecto se encontrará un archivo bash``` input.txt ``` vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.
@@ -59,7 +68,7 @@ code .
 
   ## Funciones
 
-  Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra ```imprimir```, ```tranformar``` o ```devolver``` un valor, pero NO se podra usar la concatenación. Ademas la     funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
+  Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra ```imprimir```, ```tranformar``` o ```devolver``` un valor, pero NO se podra usar la concatenación. Ademas la funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
 
   - Funcion con Argumentos
   ``` bash
@@ -103,7 +112,31 @@ code .
 
       y = x + "Mundo!";
 
-  #
+  ## Reglas Generales:
+
+  Todas las sentencias deben terminar con ```;```
+
+  # Resultados Esperados:
+
+  En la consola se espera resultados similares a lo siguiente:
+
+      ✅ Entrada válida.
+
+      📌 Tabla de Lexemas:
+      variable → VAR
+      saludo → NOMBRE
+      = → EQ
+      "Hola" → TEXTO
+      ; → SEMICOLON
+      ...
+      
+      🌳 Árbol de derivación:
+      (programa (declaracion ...) ...)
+
+      PROGRAMA:
+
+      Hola Mundo!
+      HOLA MUNDO!
       
 
 

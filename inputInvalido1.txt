@@ -1,0 +1,10 @@
+variable var1;
+variable var2;
+variable var3;
+
+funcion nombreFun (var1, var2) {
+
+    var1 = reemplazar ("Compilador");
+    var2 = reemplazar("Traductor");
+    var3 = reemplazar ("Analizador");
+}

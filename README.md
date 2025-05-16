@@ -42,18 +42,18 @@ code .
 - ```index.js```: Acopla las distintas partes del analizador
 
 
-# Utilizar el analizador
+## Utilizar el analizador
 
-- En el proyecto se encontrará un archivo ``` input.txt ``` vacío. Copia los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code.
+- En el proyecto se encontrará un archivo ``` input.txt ``` vacío. Insertá los inputs ubicados en el repositorio copiandolos y pegandolos en el proyecto en VS code y apretando ```Ctrl + S```.
   
-- Una vez colocado el input, puedes presionar ``` f5 ```, para ver su estructura sintactica.
+- Una vez colocado y guardado el input, puedes presionar ``` f5 ```, para ver su estructura sintactica.
   
-- Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código ``` npm start ```.
+- Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código ``` npm start ``` o ```node index.js```.
   
   - En caso de tener algun problema coloca en la terminal: ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
     
  
-# Reglas para el uso de la gramática
+## Reglas para el uso de la gramática
 
   ### Declaración de Variables
 

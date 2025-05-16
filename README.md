@@ -42,3 +42,16 @@ code .
 - Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código ``` npm start ```.
   
   - En caso de tener algun problema coloca en la terminal: ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
+    
+ 
+# Reglas para el uso de la gramática
+
+## Declaración de variables
+
+Se puede declarar variables asignandole un valor o sin declararle ningún valor de la forma:
+```bash
+Variable X = 1;
+variable Y;
+```
+
+

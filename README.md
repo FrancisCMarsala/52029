@@ -118,7 +118,7 @@ code .
   - No pueden haber 2 funciones o variables con el mismo nombre.
   - No pueden haber concatenaciones en las funciones, ni variables no definidas en el argumento
 
-  # Resultados Esperados:
+  ## RESULTADOS ESPERADOS:
 
   En la consola se espera resultados similares a lo siguiente:
 

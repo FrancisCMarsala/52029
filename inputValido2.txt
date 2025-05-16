@@ -1,0 +1,41 @@
+variable X = "Este es un analizador para la materia Sintaxis y Semantica del Lenguaje";
+variable Y = "Soy un remplazo de otra variable";
+
+variable argumento;
+
+X = mayuscula(X);
+imprimir(X);
+
+X = minuscula(X);
+imprimir(X);
+
+X = mayuscula(X);
+imprimir(X);
+
+X = invertir(X);
+imprimir (X);
+
+variable cantLetras = "Cantidad de letras: ";
+X = longitud(X);
+
+X = cantLetras + X;
+
+imprimir (X);
+
+X = reemplazar(Y);
+imprimir(X);
+
+funcion primeraFuncion {
+    devolver "Final";
+}
+
+funcion segundaFuncion (argumento) {
+    argumento = reemplazar(" de Programa");
+    devolver argumento;
+}
+
+variable mensajeFinal;
+mensajeFinal = primeraFuncion + segundaFuncion;
+mensajeFinal = mayuscula(mensajeFinal);
+
+imprimir (mensajeFinal);

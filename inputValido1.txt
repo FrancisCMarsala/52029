@@ -1,0 +1,32 @@
+variable mensaje1 = "Hola, ";
+variable mensaje2 = "Mundo!";
+
+variable mensaje3;
+
+variable mensajeCompleto;
+
+mensajeCompleto = mensaje1 + mensaje2;
+
+imprimir (mensajeCompleto);
+
+variable numero = 123;
+
+imprimir(numero);
+
+funcion hola (mensaje1) {
+
+    mensaje1 = reemplazar ("Adios Mundo");
+
+    mensaje1 = mayuscula (mensaje1);
+
+    imprimir(mensaje1);
+
+    devolver 3;
+
+}
+
+imprimir (hola);
+
+mensaje3 =  numero + hola;
+
+imprimir (mensaje3);

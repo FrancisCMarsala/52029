@@ -137,6 +137,8 @@ code .
 
   ## RESULTADOS ESPERADOS:
 
+  Una vez ejecutado el programa se veran 4 secciones en la terminal. La tabla de lexemas, el árbol de derivación, el programa hecho por el input y el código del input en lenguaje javaScript
+
   En la consola se espera resultados similares a lo siguiente:
 
       ✅ Entrada válida.
@@ -152,14 +154,14 @@ code .
       🌳 Árbol de derivación:
       (programa (declaracion ...) ...)
 
-      PROGRAMA:
+      💻 PROGRAMA:
 
       Hola Mundo!
       HOLA MUNDO!
       
       ...
 
-      CÓDIGO ESCRITO POR JAVASCRIPT:
+      🌐 CÓDIGO ESCRITO POR JAVASCRIPT:
 
       let mensaje1 = "Hola, ";
       let mensaje2 = "Mundo!";

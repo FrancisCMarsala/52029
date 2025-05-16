@@ -46,16 +46,65 @@ code .
  
 # Reglas para el uso de la gramática
 
-## Declaración de variables
+  ## Declaración de variables
 
-Se puede declarar variables asignandole un valor o sin declararle ningún valor de la forma:
-```bash
-  Variable X = 1;
-  variable Y;
-```
-Las variables pueden tener valores de tipo cadena o de tipo entero positivo.
+  Se puede declarar variables asignandole un valor o sin declararle ningún valor de la forma:
+  ```bash
+    Variable X = 1;
+    variable Y;
+  ```
+  Las variables pueden tener valores de tipo cadena o de tipo entero positivo.
 
-## Funciones
+  ## Funciones
 
-Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra imprimir, tranformar o devolver un valor, pero NO se podra usar la concatenación.
+  Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra imprimir, tranformar o devolver un valor, pero NO se podra usar la concatenación. Ademas la     funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
+
+  - Funcion con Argumentos
+  
+    ```bash
+      funcion primeraFuncion (var1, var2) {
+        var1 = minuscula (var2);
+        devolver var1;  
+      }
+    ```
+
+    - Función sin Argumentos
+  
+    ```bash
+      funcion segundaFuncion {
+        imprimir ("Hola Mundo");  
+      }
+    ```
+
+  ## Imprimir
+
+  Se puede imprimir un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sen quiere imprimir debe estar entre parentesis.
+  
+    ```bash
+      variable x = 10;
+
+      imprimir (x);
+    ```
+    
+  ## Transformación
+
+  Para la transformación de una cadena, se debe poner una variable declarada seguido del operados '=' y las palabras "minuscula", "mayuscula", "reemplazar", "invertir" o "longitud" seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
+  
+    ```bash
+      variable x = 10;
+
+      x = mayuscula (hola);
+    ```
+
+  ## Concatenación
+
+  Para la concatenación de dos cadenas, se debe poner una variable declarada seguido del operados '=' y dos cadenas o variables con contenido de una cadena puestas entre el operador '+'.
+  
+    ```bash
+      variable x = "Hola ";
+      variable y;
+
+      y = x + "Mundo!";
+    ```
+
 

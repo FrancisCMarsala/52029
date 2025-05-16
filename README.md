@@ -63,12 +63,10 @@ code .
 
   - Funcion con Argumentos
   
-    ```
     funcion primeraFuncion (var1, var2) {
       var1 = minuscula (var2);
       devolver var1;  
     } 
-    ```
 
   - Función sin Argumentos
   

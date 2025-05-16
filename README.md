@@ -35,11 +35,11 @@ code .
 
 # Estructura del analizador
 
--```GramCadenas.g4```: Estructura de la gramática
--```myGramarLexer.g4```: Lexemas
--```input.txt```: Código leído por el analizador
--```CustomGramCadenasVisitor.js```: Encargado de realizar los eventos al recorrer los nodos del árbol
--```index.js```: Acopla las distintas partes del analizador
+- ```GramCadenas.g4```: Estructura de la gramática
+- ```myGramarLexer.g4```: Lexemas
+- ```input.txt```: Código leído por el analizador
+- ```CustomGramCadenasVisitor.js```: Encargado de realizar los eventos al recorrer los nodos del árbol
+- ```index.js```: Acopla las distintas partes del analizador
 
 
 # Utilizar el analizador

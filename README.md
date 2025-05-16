@@ -131,7 +131,8 @@ code .
           variable z;
           z = x + y;
           z = mayuscula (x);
-
+      
+  - La concatenación solo acepta variables tipo cadena, al igual que la transformacion 
 
   ## RESULTADOS ESPERADOS:
 

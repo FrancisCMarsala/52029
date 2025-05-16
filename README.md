@@ -116,7 +116,7 @@ code .
 
   - Todas las sentencias deben terminar con ```;```
   - No pueden haber funciones o variables con el mismo nombre.
-  - No pueden haber concatenaciones en las funciones, ni variables no definidas en el argumento
+  - En las funciones, no pueden haber concatenaciones, ni variables no definidas en el argumento
   - Como se especifica en la gramática, las variables se declaran con un ```<valor>``` por lo que no se permite declarar una variable con una concatenación o transformación. 
 
     - ❌ Ejemplo de sentencias no válidas:

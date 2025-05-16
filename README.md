@@ -50,8 +50,12 @@ code .
 
 Se puede declarar variables asignandole un valor o sin declararle ningún valor de la forma:
 ```bash
-Variable X = 1;
-variable Y;
+  Variable X = 1;
+  variable Y;
 ```
+Las variables pueden tener valores
 
+## Funciones
+
+Se pueden declarar funciones
 

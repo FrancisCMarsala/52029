@@ -39,6 +39,6 @@ code .
   
 - Una vez colocado el input, puedes presionar ``` f5 ```, para ver su estructura sintactica.
   
-- Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código bash``` npm start ```.
+- Para ejecutar el código, abre la terminal con ``` ctrl + Ñ ``` o desde la ventana terminal y ejecuta el código ``` npm start ```.
   
   - En caso de tener algun problema coloca en la terminal: ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```

@@ -25,8 +25,8 @@ funcion funcionConDevolucion (mensaje1) {
 
 }
 
-imprimir (hola);
+imprimir (funcionConDevolucion);
 
-mensaje3 =  numero + hola;
+mensaje3 =  numero + funcionConDevolucion;
 
 imprimir (mensaje3);

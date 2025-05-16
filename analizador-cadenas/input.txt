@@ -1,3 +1,32 @@
-imprimir ("hola");
+variable mensaje1 = "Hola, ";
+variable mensaje2 = "Mundo!";
 
+variable mensaje3;
 
+variable mensajeCompleto;
+
+mensajeCompleto = mensaje1 + mensaje2;
+
+imprimir (mensajeCompleto);
+
+variable numero = "123";
+
+imprimir(numero);
+
+funcion funcionConDevolucion (mensaje1) {
+
+    mensaje1 = reemplazar ("Adios Mundo");
+
+    mensaje1 = mayuscula (mensaje1);
+
+    imprimir(mensaje1);
+
+    devolver "4";
+
+}
+
+imprimir (funcionConDevolucion);
+
+mensaje3 =  numero + funcionConDevolucion;
+
+imprimir (mensaje3);

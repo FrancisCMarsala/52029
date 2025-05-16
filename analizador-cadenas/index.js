@@ -12,6 +12,19 @@ class ThrowingErrorListener extends antlr4.error.ErrorListener {
     }
 }
 
+import { exec } from 'child_process';
+
+exec('node jsGenerator.js', (error, stdout, stderr) => {
+    if (error) {
+        console.error(`❌ Error al ejecutar el traductor: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.error(`⚠️ STDERR: ${stderr}`);
+    }
+    console.log(stdout);
+});
+
 async function main() {
     let input;
     let semanticErrorDetected = false;
@@ -56,7 +69,7 @@ async function main() {
         });
 
         const cadena_tree = tree.toStringTree(parser.ruleNames);
-        console.log(`\n🌳 Árbol de derivación: ${cadena_tree} \n \n PROGRAMA: \n `);
+        console.log(`\n🌳 Árbol de derivación: ${cadena_tree} \n \n 💻 PROGRAMA: \n `);
 
         const visitor = new CustomCalculatorVisitor();
         visitor.parser = parser;
@@ -76,4 +89,5 @@ async function main() {
 }
 
 main();
+
 

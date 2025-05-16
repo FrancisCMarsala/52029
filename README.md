@@ -82,32 +82,29 @@ code .
 
   Se puede imprimir un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sen quiere imprimir debe estar entre parentesis.
   
-    ```
       variable x = 10;
 
       imprimir (x);
-    ```  
+      
     
   ## Transformación
 
   Para la transformación de una cadena, se debe poner una variable declarada seguido del operados '=' y las palabras "minuscula", "mayuscula", "reemplazar", "invertir" o "longitud" seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
   
-    ```
       variable x = 10;
 
       x = mayuscula (hola);
-    ```  
+      
 
   ## Concatenación
 
   Para la concatenación de dos cadenas, se debe poner una variable declarada seguido del operados '=' y dos cadenas o variables con contenido de una cadena puestas entre el operador '+'.
   
-    ```
       variable x = "Hola ";
       variable y;
 
       y = x + "Mundo!";
-    ```  
+      
 
 
 

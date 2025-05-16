@@ -59,7 +59,7 @@ code .
 
   ## Funciones
 
-  Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra imprimir, tranformar o devolver un valor, pero NO se podra usar la concatenación. Ademas la     funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
+  Se pueden declarar funciones con argumentos o sin argumentos. Dentro de la función solo se podran usar las variables pasadas como argumento, y dentro de la función se podra ```imprimir```, ```tranformar``` o ```devolver``` un valor, pero NO se podra usar la concatenación. Ademas la     funcion debe tener un nombre, los argumentos deben estar entre parentesis (en caso de no haber argumentos los parentesis no se ponen) y las instrucciones deben estar entre llaves.
 
   - Funcion con Argumentos
   ``` bash
@@ -71,14 +71,14 @@ code .
   - Función sin Argumentos
   
   ```    
-      funcion segundaFuncion {
-        imprimir ("Hola Mundo");  
-      }
+    funcion segundaFuncion {
+      imprimir ("Hola Mundo");  
+    }
   ``` 
 
   ## Imprimir
 
-  Se puede imprimir un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sen quiere imprimir debe estar entre parentesis.
+  Se puede ```imprimir``` un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sen quiere imprimir debe estar entre parentesis.
   
       variable x = 10;
 
@@ -87,7 +87,7 @@ code .
     
   ## Transformación
 
-  Para la transformación de una cadena, se debe poner una variable declarada seguido del operados '=' y las palabras "minuscula", "mayuscula", "reemplazar", "invertir" o "longitud" seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
+  Para la transformación de una cadena, se debe poner una variable declarada seguido del operados '=' y las palabras ```minuscula```, ```mayuscula```, ```reemplazar```, ```invertir``` o ```longitud``` seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
   
       variable x = 10;
 
@@ -102,6 +102,8 @@ code .
       variable y;
 
       y = x + "Mundo!";
+
+  #
       
 
 

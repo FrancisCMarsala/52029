@@ -40,6 +40,7 @@ code .
 - ```input.txt```: Código leído por el analizador
 - ```CustomGramCadenasVisitor.js```: Encargado de realizar los eventos al recorrer los nodos del árbol
 - ```index.js```: Acopla las distintas partes del analizador
+- ```jsGenerator.js```: Pasa el codigo que se encuentra en el index a lenguaje java script
 
 
 ## UTILIZAR EL ANALIZADOR
@@ -156,6 +157,16 @@ code .
       Hola Mundo!
       HOLA MUNDO!
       
+      ...
+
+      CÓDIGO ESCRITO POR JAVASCRIPT:
+
+      let mensaje1 = "Hola, ";
+      let mensaje2 = "Mundo!";
+
+      console.log(mensajeCompleto);
+
+      ...
 
 
 

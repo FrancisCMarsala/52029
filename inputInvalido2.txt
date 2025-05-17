@@ -1,8 +1,6 @@
 variable num1 = 10;
 variable num2 = 20;
 
-num3 = num1 + num2;
-
 variable num2;
 variable num3;
 

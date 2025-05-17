@@ -1,8 +1,6 @@
-variable num1 = 10;
-variable num2 = 20;
+variable x;
+variasble y;
 
-variable num2;
-variable num3;
-
-imprimir(num2);
-imprimir(num3);
+funcion (x,y) {
+  devolver y;
+}

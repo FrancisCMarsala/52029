@@ -18,7 +18,7 @@ git clone https://github.com/FrancisCMarsala/52029.git
 2. Andá a la ubicación del archivo
 
 ```bash
-cd analizador-cadenas
+cd 52029/analizador-cadenas
 ```
 
 3. Instalá las dependencias

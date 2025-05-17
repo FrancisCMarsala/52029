@@ -63,7 +63,7 @@ code .
   Se puede declarar variables asignandole un valor o sin declararle ningún valor de la forma:
   
   ```
-    Variable X = 1;
+    variable X = 1;
     variable Y;
   ```
 

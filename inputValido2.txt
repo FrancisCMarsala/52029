@@ -9,9 +9,6 @@ imprimir(X);
 X = minuscula(X);
 imprimir(X);
 
-X = mayuscula(X);
-imprimir(X);
-
 X = invertir(X);
 imprimir (X);
 

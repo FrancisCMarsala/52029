@@ -53,6 +53,8 @@ code .
   
   - En caso de tener algun problema coloca en la terminal: ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
     
+## DESCRIPCION BREVE DEL FUNCIONAMIENTO DEL ANALIZADOR
+  La gramática permite hacer uso de variables y funciones ademas de realizar distintas acttividades con cadenas de texto como transformarlas, concatenarlas e imprimirlas. En la consola se veran solo las cadenas sometidas a un codigo 'imprimir()' y los mensaje de errores en caso de haberlos. Además de las funcionalidades del programa principal, debajo se encuentra el código de mi gramática traducido al lenguaje javaScript.
  
 ## REGLAS PARA EL USO DE LA GRAMÁTICA
 

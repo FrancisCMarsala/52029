@@ -99,7 +99,7 @@ code .
     
   ### TRANSFORMACIÓN
 
-  Para la transformación de una cadena, se debe poner una variable declarada seguido del operados '=' y las palabras ```minuscula```, ```mayuscula```, ```reemplazar```, ```invertir``` o ```longitud``` seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
+  Para la transformación de una cadena, se debe poner una variable declarada seguido del operador '=' y las palabras ```minuscula```, ```mayuscula```, ```reemplazar```, ```invertir``` o ```longitud``` seguido de una cadena (ya sea una cadena explicita o una variable con el valor de una cadena asignada) que obligatoriamente tiene que estar entre parentesis.
   
       variable x = 10;
 
@@ -108,7 +108,7 @@ code .
 
   ### CONCATENACIÓN
 
-  Para la concatenación de dos cadenas, se debe poner una variable declarada seguido del operados '=' y dos cadenas o variables con contenido de una cadena puestas entre el operador '+'.
+  Para la concatenación de dos cadenas, se debe poner una variable declarada seguido del operador '=' y dos cadenas o variables con contenido de una cadena puestas entre el operador '+'.
   
       variable x = "Hola ";
       variable y;

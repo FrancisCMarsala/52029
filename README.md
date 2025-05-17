@@ -139,7 +139,7 @@ code .
 
   ## RESULTADOS ESPERADOS:
 
-  Una vez ejecutado el programa se veran 4 secciones en la terminal. La tabla de lexemas, el árbol de derivación, el programa hecho por el input y el código del input en lenguaje javaScript
+  Una vez ejecutado el programa se veran 4 secciones en la terminal. La tabla de lexemas y tokens, el árbol de derivación, el programa y el código del input en lenguaje javaScript
 
   En la consola se espera resultados similares a lo siguiente:
 

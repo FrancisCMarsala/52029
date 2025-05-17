@@ -90,7 +90,7 @@ code .
 
   ### IMPRIMIR
 
-  Se puede ```imprimir``` un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sen quiere imprimir debe estar entre parentesis.
+  Se puede ```imprimir``` un valor, ya sea el contenido de una variable o función, una cadena o un número. Lo que sea se quiera imprimir debe estar entre parentesis.
   
       variable x = 10;
 
